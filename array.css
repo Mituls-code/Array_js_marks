@@ -1,0 +1,16 @@
+table,
+th,
+td {
+    width: 300px;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid;
+    border-collapse: collapse;
+    background-color: cadetblue;
+    color: white;
+}
+
+td {
+    background-color: cornflowerblue;
+}
