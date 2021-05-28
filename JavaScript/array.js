@@ -2,11 +2,11 @@ let sub = prompt("Enter total subject : ");
 let subject = [];
 let tot = 0;
 let txt = "<table><tr><th>Subject</th><th>Marks</th></tr>"
-for (i = 0; i < sub; i++) {
-    subject[i] = prompt("Enter subject Name : ");
+for (i = 1; i <= sub; i++) {
+    subject[i] = prompt("Enter subject Name " + i);
 }
 
-for (let i = 0; i < subject.length; i++) {
+for (let i = 1; i < subject.length; i++) {
 
     let marks = prompt("Enter mark of " + subject[i]);
     tot += parseInt(marks);
